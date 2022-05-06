@@ -1,0 +1,13 @@
+delete from books
+
+select*from users;
+
+select*from books;
+
+insert into books (id,author,category,title, year, owner_id)
+values (1,'Author-1','Category-1','Title-1',2002,3),
+       (8,'Author-1','Category-1','Title-1',2002,3),
+       (5,'Author-1','Category-1','Title-1',2002,5),
+       (6,'Artist-1','Picture-1','Genre-1',2002,5),
+       (7,'Artist-1','Picture-1','Genre-1',2002,7),
+       (2,'Artist-1','Picture-1','Genre-1',2002,7)
